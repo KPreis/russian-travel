@@ -1,0 +1,13 @@
+.cover {
+  margin: 0 auto;
+  padding: 92px 0 0;
+  max-width: 1184px;
+  max-height: 740px;  
+  text-align: center;
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+.cover:hover {
+  opacity: 0.8;
+}

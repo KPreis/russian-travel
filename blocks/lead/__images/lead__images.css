@@ -1,0 +1,8 @@
+.lead__images {
+  margin: 64px auto 0;
+  width: 984px;
+  height: 615px;
+  display: flex;
+  background-image: url(../../../images/side_shelf.jpeg);
+  background-size: cover;
+}
