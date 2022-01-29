@@ -4,3 +4,23 @@
   font-size: 18px;
   line-height: 1.63;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+  .place__text:last-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+  .place__text:last-child {
+    margin: 0;
+  }
+}
