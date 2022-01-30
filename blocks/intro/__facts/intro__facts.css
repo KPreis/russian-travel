@@ -1,7 +1,7 @@
 .intro__facts {
   margin: 33px 0 0;
   padding: 0;
-  width: 690px;
+  max-width: 690px;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -12,6 +12,6 @@
 @media screen and (max-width: 767px) {
   .intro__facts {
     margin: 34px 0 0;
-    width: 288px;
+    max-width: 288px;
   }
 }
