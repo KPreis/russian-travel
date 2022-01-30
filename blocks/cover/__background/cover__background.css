@@ -1,32 +1,31 @@
-.cover {
+.cover__background {
+  grid-area: 1/1;
   margin: 0 auto;
   width: 1184px;
-  height: 740px;  
-  text-align: center;
-  position: relative;
-  transition: opacity 0.3s ease;
-}
-
-.cover:hover {
-  opacity: 0.8;
+  height: 740px;
+  background: url(../../../images/cover__background.jpeg), #2A2C2F;
+  background-size: cover;
+  opacity: 0.3;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .cover {
+  .cover__background {
     width: 100%;
+    max-width: 1184px;
     height: calc(100vw*(5/8));
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover {
+  .cover__background {
     width: 100%;
     height: calc(100vw*(5/8));
   }
 }
 
 @media screen and (max-width: 767px) {
-  .cover {
+  .cover__background {
+    margin: 0;
     width: 100%;
     min-width: 320px;
     height: calc(100vw*(5/8));
