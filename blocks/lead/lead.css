@@ -4,6 +4,7 @@
   width: 984px;
   display: flex;
   flex-direction: column;
+  font-size: 0;
 }
 
 @media screen and (max-width: 1279px) {
